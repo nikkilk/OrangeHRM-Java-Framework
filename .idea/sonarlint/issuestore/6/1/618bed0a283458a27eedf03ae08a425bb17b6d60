@@ -1,0 +1,40 @@
+
+i
+java:S1192œ"MDefine a constant instead of duplicating this literal "warnNoMoving" 6 times.(Ì¾æÕüÿÿÿÿ
+n
+java:S1104"SMake records a static final constant or non-public and provide accessors if needed.(´–ë§úÿÿÿÿ
+g
+java:S1104"QMake count a static final constant or non-public and provide accessors if needed.(ëª™Š
+m
+java:S1104"WMake movingCount a static final constant or non-public and provide accessors if needed.(ã”…–
+n
+java:S1104"YMake movingPercent a static final constant or non-public and provide accessors if needed.(¸Úõ4
+s
+java:S1104"XMake stoppedCount a static final constant or non-public and provide accessors if needed.(µˆ”×øÿÿÿÿ
+p
+java:S1104"ZMake stoppedPercent a static final constant or non-public and provide accessors if needed.(Ô¤ñß
+k
+java:S1104"UMake idleCount a static final constant or non-public and provide accessors if needed.(ŒÛƒë
+m
+java:S1104"WMake idlePercent a static final constant or non-public and provide accessors if needed.(Œ›É
+o
+java:S1104"YMake inactiveCount a static final constant or non-public and provide accessors if needed.(…ğ¢
+q
+java:S1104"[Make inactivePercent a static final constant or non-public and provide accessors if needed.(§ÒĞ
+u
+java:S1104"ZMake operationCount a static final constant or non-public and provide accessors if needed.(ñŸ ’úÿÿÿÿ
+w
+java:S1104"\Make operationPercent a static final constant or non-public and provide accessors if needed.(°ªãÿÿÿÿÿ
+j
+java:S1104 "TMake allCount a static final constant or non-public and provide accessors if needed.(ş¼­í
+q
+java:S1104!"VMake allPercent a static final constant or non-public and provide accessors if needed.(ø·  üÿÿÿÿ
+l
+java:S1104""VMake totalCount a static final constant or non-public and provide accessors if needed.(úîµš
+n
+java:S1104#"XMake totalPercent a static final constant or non-public and provide accessors if needed.(ß§§ú
+A
+java:S1444"+Make this "public static count" field final(ëª™Š
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­«ÚŸşÿÿÿÿ
+r	java:S1164"XRename this field "VehicleStatus" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Çüÿÿÿÿ
+O	java:S106ã"9Replace this use of System.out or System.err by a logger.(”“î€

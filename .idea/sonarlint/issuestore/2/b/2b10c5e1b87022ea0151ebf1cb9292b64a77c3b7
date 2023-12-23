@@ -1,0 +1,13 @@
+
+m
+java:S1192–"JDefine a constant instead of duplicating this literal "Last Name" 3 times.( ™·úÿÿÿÿ8‹‡ë©ì0
+u
+java:S1104"XMake alertMessage a static final constant or non-public and provide accessors if needed.(Ìóˆ—8ÿ©×­ì0
+w
+java:S1104"UMake firstName a static final constant or non-public and provide accessors if needed.(ßæÆÑıÿÿÿÿ8™Ğ×­ì0
+w
+java:S1104"UMake loginName a static final constant or non-public and provide accessors if needed.(‹€‚Ùüÿÿÿÿ8™Ğ×­ì0
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­«ÚŸşÿÿÿÿ8‡ë©ì0
+^	java:S107“"<Method has 8 parameters, which is greater than 7 authorized.(ñ¿¤•ûÿÿÿÿ8¹ˆë©ì0
+`
+java:S1117»"=Rename "firstName" which hides the field declared at line 16.(ú„·Ëıÿÿÿÿ8¼øâ­ì0

@@ -1,0 +1,110 @@
+
+h	java:S112œ"FDefine and throw a dedicated exception instead of using a generic one.(öÁê×ùÿÿÿÿ8Î‰¿©ì0
+c	java:S112±"FDefine and throw a dedicated exception instead of using a generic one.(õí…8Ï‰¿©ì0
+c	java:S112Ñ"FDefine and throw a dedicated exception instead of using a generic one.(¥”º‹8Ï‰¿©ì0
+m
+java:S1104"PMake yaml a static final constant or non-public and provide accessors if needed.(ŸçŠ“8Ğ‰¿©ì0
+u
+java:S1104"SMake yamlMap a static final constant or non-public and provide accessors if needed.(¡§‚×ıÿÿÿÿ8Ğ‰¿©ì0
+n
+java:S1104"QMake input a static final constant or non-public and provide accessors if needed.(àÔ‡›8Ğ‰¿©ì0
+r
+java:S1104"PMake file a static final constant or non-public and provide accessors if needed.(åò«şúÿÿÿÿ8Ğ‰¿©ì0
+n
+java:S1104"QMake title a static final constant or non-public and provide accessors if needed.(Å¬õ8Ğ‰¿©ì0
+w
+java:S1104"UMake loginType a static final constant or non-public and provide accessors if needed.(Äãûÿÿÿÿ8Ğ‰¿©ì0
+q
+java:S1104"TMake username a static final constant or non-public and provide accessors if needed.(Ÿ’—î8Ğ‰¿©ì0
+v
+java:S1104 "TMake password a static final constant or non-public and provide accessors if needed.(İÿ¢şÿÿÿÿ8Ğ‰¿©ì0
+p
+java:S1104""NMake df a static final constant or non-public and provide accessors if needed.(ñÖÂˆûÿÿÿÿ8Ğ‰¿©ì0
+y
+java:S1104#"WMake actionsPage a static final constant or non-public and provide accessors if needed.(âËÓôùÿÿÿÿ8Ğ‰¿©ì0
+r
+java:S1104$"UMake tablePage a static final constant or non-public and provide accessors if needed.(¤ÕÏ…8Ğ‰¿©ì0
+m
+java:S1104%"QMake login a static final constant or non-public and provide accessors if needed.(½³¸g8Ğ‰¿©ì0
+r
+java:S1104&"PMake dash a static final constant or non-public and provide accessors if needed.(æ•ìóûÿÿÿÿ8Ğ‰¿©ì0
+s
+java:S1104'"QMake onMap a static final constant or non-public and provide accessors if needed.(Ó‹‚Ãùÿÿÿÿ8Ğ‰¿©ì0
+u
+java:S1104("SMake reports a static final constant or non-public and provide accessors if needed.(§øª¼ûÿÿÿÿ8Ğ‰¿©ì0
+|
+java:S1104)"ZMake vehicleReports a static final constant or non-public and provide accessors if needed.(òàØ©üÿÿÿÿ8Ğ‰¿©ì0
+q
+java:S1104*"OMake geo a static final constant or non-public and provide accessors if needed.(¤àö¦üÿÿÿÿ8Ğ‰¿©ì0
+t
+java:S1104+"RMake client a static final constant or non-public and provide accessors if needed.( ·§üÿÿÿÿ8Ğ‰¿©ì0
+m
+java:S1104,"PMake user a static final constant or non-public and provide accessors if needed.(«©›õ8Ğ‰¿©ì0
+l
+java:S1104-"OMake sim a static final constant or non-public and provide accessors if needed.(ĞíÁÿ8Ğ‰¿©ì0
+m
+java:S1104."PMake unit a static final constant or non-public and provide accessors if needed.(äëá–8Ğ‰¿©ì0
+G
+java:S1444"*Make this "public static yaml" field final(ŸçŠ“8Ğ‰¿©ì0
+O
+java:S1444"-Make this "public static yamlMap" field final(¡§‚×ıÿÿÿÿ8Ğ‰¿©ì0
+H
+java:S1444"+Make this "public static input" field final(àÔ‡›8Ğ‰¿©ì0
+L
+java:S1444"*Make this "public static file" field final(åò«şúÿÿÿÿ8Ğ‰¿©ì0
+Q
+java:S1444"/Make this "public static loginType" field final(Äãûÿÿÿÿ8Ğ‰¿©ì0
+K
+java:S1444".Make this "public static username" field final(Ÿ’—î8Ğ‰¿©ì0
+P
+java:S1444 ".Make this "public static password" field final(İÿ¢şÿÿÿÿ8Ğ‰¿©ì0
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ñ¼¥ıÿÿÿÿ8Õ‰¿©ì0
+b
+java:S2259"DA "NullPointerException" could be thrown; "driver" is nullable here.(¡ÈÛ«8ÚŠ¿©ì0
+m
+java:S2095³"OUse try-with-resources or close this "InputStreamReader" in a "finally" clause.(¾ÃÔ¼8ÚŠ¿©ì0
+X
+java:S2696E"6Make the enclosing method "static" or remove this set.(ùò¢ˆşÿÿÿÿ8åŠ¿©ì0
+X
+java:S2696H"6Make the enclosing method "static" or remove this set.(²¨¼Äüÿÿÿÿ8æŠ¿©ì0
+S
+java:S2696K"6Make the enclosing method "static" or remove this set.(¦³ç“8æŠ¿©ì0
+X
+java:S2696O"6Make the enclosing method "static" or remove this set.(Ó±óÀúÿÿÿÿ8æŠ¿©ì0
+D
+java:S2386P""Make member "yamlMap" "protected".(‚Íšıÿÿÿÿ8õŠ¿©ì0
+X
+java:S2696P"6Make the enclosing method "static" or remove this set.(‚Íšıÿÿÿÿ8õŠ¿©ì0
+U	java:S106T"9Replace this use of System.out or System.err by a logger.(Â‡ìÉ8öŠ¿©ì0
+[	java:S106›"9Replace this use of System.out or System.err by a logger.(Æ×çºûÿÿÿÿ8ÿŠ¿©ì0
+Y
+java:S2696ª"6Make the enclosing method "static" or remove this set.(øğÿÂüÿÿÿÿ8‚‹¿©ì0
+T
+java:S2696­"6Make the enclosing method "static" or remove this set.(ùÍø¼8‚‹¿©ì0
+[	java:S106°"9Replace this use of System.out or System.err by a logger.(ùßÏşÿÿÿÿ8‹‹¿©ì0
+W
+java:S4719³"9Replace charset name argument with StandardCharsets.UTF_8(¾ÃÔ¼8’‹¿©ì0
+k	java:S100º"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀğŠÕ8“‹¿©ì0
+Y
+java:S2696»"6Make the enclosing method "static" or remove this set.(ÖÄ¹üÿÿÿÿ8”‹¿©ì0
+T
+java:S2696¾"6Make the enclosing method "static" or remove this set.(›ü×¥8”‹¿©ì0
+Y
+java:S2696¿"6Make the enclosing method "static" or remove this set.(ğ±§¹üÿÿÿÿ8”‹¿©ì0
+Y
+java:S2696Â"6Make the enclosing method "static" or remove this set.(¦àûëıÿÿÿÿ8•‹¿©ì0
+Y
+java:S2696Ã"6Make the enclosing method "static" or remove this set.(Ö‰ıÄøÿÿÿÿ8•‹¿©ì0
+T
+java:S2696Æ"6Make the enclosing method "static" or remove this set.(Á¯©Æ8•‹¿©ì0
+Y
+java:S2696Ç"6Make the enclosing method "static" or remove this set.(¤èÓ®ıÿÿÿÿ8•‹¿©ì0
+T
+java:S2696Ê"6Make the enclosing method "static" or remove this set.(õöÔ8•‹¿©ì0
+Y
+java:S2696Ë"6Make the enclosing method "static" or remove this set.(Á‘§Êûÿÿÿÿ8•‹¿©ì0
+[	java:S106Ï"9Replace this use of System.out or System.err by a logger.(˜¸—Ÿûÿÿÿÿ8•‹¿©ì0
+V	java:S106Û"9Replace this use of System.out or System.err by a logger.(êÜø8–‹¿©ì0
+[	java:S106ğ"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿ8˜‹¿©ì0
+[	java:S106ü"9Replace this use of System.out or System.err by a logger.(§ä£ıÿÿÿÿ8š‹¿©ì0
+p	java:S100„"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äòƒÎüÿÿÿÿ8›‹¿©ì0

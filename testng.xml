@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="login.RememberMeTest"/>
+      <class name="dashboard.LanguageMenuTest"/>
+      <class name="dashboard.InactiveVehicleListPageTest"/>
+      <class name="dashboard.DynamicStatusTableTest"/>
+      <class name="dashboard.MovingVehicleListPageTest"/>
+      <class name="login.LoginUsernameFieldTest"/>
+      <class name="dashboard.AlertMoreDetailsTest"/>
+      <class name="dashboard.MovingVehicleTest"/>
+      <class name="SIM.SIMMobileNumberFieldTest"/>
+      <class name="SIM.SIMCRUDTest"/>
+      <class name="login.LoginPasswordFieldTest"/>
+      <class name="dashboard.StoppedVehicleListPageTest"/>
+      <class name="users.UsersPasswordFieldTest"/>
+      <class name="dashboard.TodaysAlertsTest"/>
+      <class name="login.LoginPageTest"/>
+      <class name="dashboard.AllVehicleListPageTest"/>
+      <class name="dashboard.DashboardPageTest"/>
+      <class name="dashboard.IdleVehicleTest"/>
+      <class name="users.UsersLastNameFieldTest"/>
+      <class name="users.UsersEmailFieldTest"/>
+      <class name="videoStatus.VideoStatusDatepickerTest"/>
+      <class name="clients.ClientListPageTest"/>
+      <class name="users.UsersCRUDTest"/>
+      <class name="login.ForgotPasswordTest"/>
+      <class name="users.UsersLoginNameFieldTest"/>
+      <class name="dashboard.StoppedVehicleTest"/>
+      <class name="users.UsersFirstNameFieldTest"/>
+      <class name="dashboard.OperationVehicleListPageTest"/>
+      <class name="dashboard.OperationVehicleTest"/>
+      <class name="dashboard.IdleVehicleListPageTest"/>
+      <class name="dashboard.AlertsChartTest"/>
+      <class name="dashboard.AllVehiclesTest"/>
+      <class name="dashboard.InactiveVehicleTest"/>
+      <class name="videoStatus.VideoStatusFieldsTest"/>
+      <class name="users.UsersListPageTest"/>
+      <class name="users.UsersAddressFieldTest"/>
+      <class name="clients.ClientNameFieldTest"/>
+      <class name="users.UsersCityFieldTest"/>
+      <class name="videoStatus.VideoStatusFunctionsTest"/>
+      <class name="SIM.SIMSimCardNumberFieldTest"/>
+      <class name="login.LoginFieldsTest"/>
+      <class name="videoStatus.VideoStatusToolsTest"/>
+      <class name="users.UsersMobileNumberFieldTest"/>
+      <class name="SIM.SIMListPageTest"/>
+      <class name="dashboard.UserProfileMenuTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,6 @@
+
+i
+java:S1192t"NDefine a constant instead of duplicating this literal "//td[text()='" 3 times.(–¸Œüýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­«ÚŸþÿÿÿÿ
+w	java:S1165"]Rename this field "NumberOfUnitsField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«§úøÿÿÿÿÿ
+w	java:S1168"]Rename this field "NumberOfUsersField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ß†Ïüÿÿÿÿ

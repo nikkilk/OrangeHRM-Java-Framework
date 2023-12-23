@@ -1,0 +1,9 @@
+
+a	java:S112š"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+d
+java:S1192r"IDefine a constant instead of duplicating this literal " in the " 4 times.(×ÇÃÑúÿÿÿÿ
+b
+java:S1192g"GDefine a constant instead of duplicating this literal " field" 6 times.(‰Åûøşÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(üŸ¤
+o
+java:S1450"TRemove the "robot" field and declare it as a local variable in the relevant methods.(”Ç»‡ıÿÿÿÿ

@@ -1,0 +1,19 @@
+ClientName: ["InfoTrack Telematics Pvt LTD", "testClient"]
+
+UserName: ["Infotrack"]
+
+VehicleNo: ["72085"]
+
+Role: ["Super Admin", "Command Center", "Admin", "User"]
+
+EnDate: ["13/11/2022T01:00:00", "14/11/2022T23:00:00", "14/10/2030T04:00:00", "15/10/2030T04:00:00", "14/10/2020T02:00:00", "15/10/2020T02:00:00"]
+
+JaDate: ["2022-11-13T01:00:00", "2022-11-14T23:00:00", "2030-10-14T04:00:00", "2030-10-15T04:00:00", "2020-10-14T02:00:00", "2020-10-15T02:00:00"]
+
+ServiceProvider: ["Airtel", "BSNL", "Idea", "Jio", "Vadafone"]
+
+SimType: ["2G", "3G", "4G", "5G"]
+
+UnitType: ["MDVR", "MDVR AI", "MDVR T", "MDVR F", "MDVR ATF", "TCU"]
+
+

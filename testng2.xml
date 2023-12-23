@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.qa.Listeners.TestListener"></listener>
+	</listeners>
+	<test thread-count="1" name="Test" parallel="none" preserve-order="true">
+		<classes>
+			<class name="dashboard.MovingVehicleListPageTest" />
+			<class name="dashboard.StoppedVehicleListPageTest" />
+			<class name="dashboard.IdleVehicleListPageTest" />
+			<class name="dashboard.InactiveVehicleListPageTest" />
+			<class name="dashboard.OperationVehicleListPageTest" />
+			<class name="dashboard.AllVehicleListPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

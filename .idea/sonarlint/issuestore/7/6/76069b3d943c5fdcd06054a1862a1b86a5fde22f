@@ -1,0 +1,91 @@
+
+a	java:S112·"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+\	java:S112Ï"FDefine and throw a dedicated exception instead of using a generic one.(‹¨‹œ
+u
+java:S2293…"YReplace the type specification in this constructor call with the diamond operator ("<>").(°¦Ş„úÿÿÿÿ
+b
+java:S1192`"GDefine a constant instead of duplicating this literal "Locale" 6 times.(à¹­¡ıÿÿÿÿ
+q
+java:S1192c"[Define a constant instead of duplicating this literal "credentials_enable_service" 3 times.(äÄß
+c
+java:S1192`"HDefine a constant instead of duplicating this literal "--lang=" 6 times.(à¹­¡ıÿÿÿÿ
+e
+java:S1192i"JDefine a constant instead of duplicating this literal "Incognito" 3 times.(ì«ââÿÿÿÿÿ
+]
+java:S1192F"GDefine a constant instead of duplicating this literal "chrome" 3 times.(‚ÄœÅ
+r
+java:S1192«"VDefine a constant instead of duplicating this literal "http://localhost:4444" 3 times.(†å†ïøÿÿÿÿ
+f
+java:S1192a"PDefine a constant instead of duplicating this literal "excludeSwitches" 3 times.(ÉÒ¦œ
+f
+java:S1192g"KDefine a constant instead of duplicating this literal "--headless" 3 times.(¿˜±½ÿÿÿÿÿ
+\
+java:S1192e"FDefine a constant instead of duplicating this literal "prefs" 3 times.(•ú§ç
+h
+java:S1192a"RDefine a constant instead of duplicating this literal "enable-automation" 3 times.(ÉÒ¦œ
+d
+java:S1192f"IDefine a constant instead of duplicating this literal "Headless" 3 times.(ûÖß¨şÿÿÿÿ
+|
+java:S1192d"aDefine a constant instead of duplicating this literal "profile.password_manager_enabled" 3 times.(ò¹ÖÉúÿÿÿÿ
+f
+java:S1104$"PMake prop a static final constant or non-public and provide accessors if needed.(²×öü
+r
+java:S1104%"WMake browserName a static final constant or non-public and provide accessors if needed.(ÏÄ¢æÿÿÿÿÿ
+f
+java:S1104*"PMake name a static final constant or non-public and provide accessors if needed.(Ã¼ê‚
+n
+java:S1104+"SMake version a static final constant or non-public and provide accessors if needed.(½Ÿøøÿÿÿÿ
+r
+java:S1104."WMake apiResponse a static final constant or non-public and provide accessors if needed.(™æÇÖûÿÿÿÿ
+@
+java:S1444$"*Make this "public static prop" field final(²×öü
+L
+java:S1444%"1Make this "public static browserName" field final(ÏÄ¢æÿÿÿÿÿ
+@
+java:S1444*"*Make this "public static name" field final(Ã¼ê‚
+H
+java:S1444+"-Make this "public static version" field final(½Ÿøøÿÿÿÿ
+L
+java:S1444."1Make this "public static apiResponse" field final(™æÇÖûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²ñ¼¥ıÿÿÿÿ
+o
+java:S1450)"YRemove the "capability" field and declare it as a local variable in the relevant methods.(Øúäè
+v
+java:S1450&"[Remove the "chromeOption" field and declare it as a local variable in the relevant methods.(±‘¶Úıÿÿÿÿ
+o
+java:S1450("YRemove the "edgeOption" field and declare it as a local variable in the relevant methods.(€¹™
+w
+java:S1450'"\Remove the "firefoxOption" field and declare it as a local variable in the relevant methods.(È‡¯çûÿÿÿÿ
+o
+java:S14500"TRemove the "proxy" field and declare it as a local variable in the relevant methods.(èÓ§İúÿÿÿÿ
+x
+java:S1450/"]Remove the "proxyServerUrl" field and declare it as a local variable in the relevant methods.(ç‹Ê«ùÿÿÿÿ
+3
+java:S2386$"Make this member "protected".(²×öü
+Z
+java:S1117A"?Rename "browserName" which hides the field declared at line 37.(øÀÉìüÿÿÿÿ
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(Ê«ï£
+^
+java:S1874V"<Remove this use of "EventFiringWebDriver"; it is deprecated.(ÔÆ·«ÿÿÿÿÿ8û€„²é0
+L
+java:S2696^"6Make the enclosing method "static" or remove this set.(š‹ö¶
+L
+java:S2696_"6Make the enclosing method "static" or remove this set.(øç—
+Q
+java:S2696s"6Make the enclosing method "static" or remove this set.(“ÑĞšÿÿÿÿÿ
+L
+java:S2696t"6Make the enclosing method "static" or remove this set.(Ş®ƒ‚
+M
+java:S2696€"6Make the enclosing method "static" or remove this set.(½¹‹ 
+R
+java:S2696"6Make the enclosing method "static" or remove this set.(‰Êà£ùÿÿÿÿ
+L
+java:S2696œ"6Make the enclosing method "static" or remove this set.(Î‘êQ
+M
+java:S2696"6Make the enclosing method "static" or remove this set.(¾²ò·
+L
+java:S2696Ş"6Make the enclosing method "static" or remove this set.(—Ê»g
+R
+java:S2696ß"6Make the enclosing method "static" or remove this set.(ˆğÜ¶ıÿÿÿÿ
+R
+java:S2696ì"6Make the enclosing method "static" or remove this set.(¹À›¿ÿÿÿÿÿ

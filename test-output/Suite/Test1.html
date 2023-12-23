@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 17 10:39:32 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29386 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dashboard.MovingVehicleTest.TC_movingVehicleCount()'><b>TC_movingVehicleCount</b><br>Test class: dashboard.MovingVehicleTest<br/>
+<a href="#Output-1494131852" onClick='toggleBox("Output-1494131852", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1494131852" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1494131852">
+Browser Launched<br/>
+Browser: chrome<br/>
+Language: english<br/>
+Login Role: super admin<br/>
+TC_movingVehicleCount Testcase execution Started<br/>
+Moving vehicles count: <b>2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.MovingVehicleTest@61e3a1fd</td></tr>
+<tr>
+<td title='dashboard.AllVehiclesTest.TC_allVehiclesViewonMap()'><b>TC_allVehiclesViewonMap</b><br>Test class: dashboard.AllVehiclesTest<br/>
+<a href="#Output-1431629014" onClick='toggleBox("Output-1431629014", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1431629014" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1431629014">
+Browser Launched<br/>
+Browser: chrome<br/>
+Language: english<br/>
+Login Role: super admin<br/>
+TC_allVehiclesViewonMap Testcase execution Started<br/>
+All Vehicle count: <b>33<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>dashboard.AllVehiclesTest@5cad8b7d</td></tr>
+<tr>
+<td title='dashboard.MovingVehicleTest.TC_movingVehiclePercent()'><b>TC_movingVehiclePercent</b><br>Test class: dashboard.MovingVehicleTest<br/>
+<a href="#Output-731166695" onClick='toggleBox("Output-731166695", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-731166695" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-731166695">
+Browser Launched<br/>
+Browser: chrome<br/>
+Language: english<br/>
+Login Role: super admin<br/>
+TC_movingVehiclePercent Testcase execution Started<br/>
+Moving vehicles Percent: <b>6%<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.MovingVehicleTest@61e3a1fd</td></tr>
+<tr>
+<td title='dashboard.AllVehiclesTest.TC_allVehiclesCount()'><b>TC_allVehiclesCount</b><br>Test class: dashboard.AllVehiclesTest<br/>
+<a href="#Output-1640737599" onClick='toggleBox("Output-1640737599", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1640737599" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1640737599">
+Browser Launched<br/>
+Browser: chrome<br/>
+Language: english<br/>
+Login Role: super admin<br/>
+TC_allVehiclesCount Testcase execution Started<br/>
+All vehicles count: <b>33<br/>
+The total number of vehicles matches the sum of moving, stopped, idle, inactive and operation vehicles<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.AllVehiclesTest@5cad8b7d</td></tr>
+<tr>
+<td title='dashboard.MovingVehicleTest.TC_movingVehicleColor()'><b>TC_movingVehicleColor</b><br>Test class: dashboard.MovingVehicleTest<br/>
+<a href="#Output-1024861891" onClick='toggleBox("Output-1024861891", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1024861891" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1024861891">
+Browser Launched<br/>
+Browser: chrome<br/>
+Language: english<br/>
+Login Role: super admin<br/>
+TC_movingVehicleColor Testcase execution Started<br/>
+Moving Vehicle Background color is <b>#289348</b><br/>
+Moving Vehicle background colour matches the defined colour code<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.MovingVehicleTest@61e3a1fd</td></tr>
+<tr>
+<td title='dashboard.MovingVehicleTest.TC_movingVehicleicon()'><b>TC_movingVehicleicon</b><br>Test class: dashboard.MovingVehicleTest<br/>
+<a href="#Output-471585635" onClick='toggleBox("Output-471585635", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-471585635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-471585635">
+Browser Launched<br/>
+Browser: chrome<br/>
+Language: english<br/>
+Login Role: super admin<br/>
+TC_movingVehicleicon Testcase execution Started<br/>
+Moving Vehicle Logo is displayed<br/>
+com.aventstack.extentreports.ExtentTest@c613723<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.MovingVehicleTest@61e3a1fd</td></tr>
+<tr>
+<td title='dashboard.MovingVehicleTest.TC_movingVehicleViewDetails()'><b>TC_movingVehicleViewDetails</b><br>Test class: dashboard.MovingVehicleTest<br/>
+<a href="#Output-440104896" onClick='toggleBox("Output-440104896", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-440104896" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-440104896">
+Browser Launched<br/>
+Browser: chrome<br/>
+Language: english<br/>
+Login Role: super admin<br/>
+TC_movingVehicleViewDetails Testcase execution Started<br/>
+Moving Vehicle count: <b>2<br/>
+Moving Vehicle List is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.MovingVehicleTest@61e3a1fd</td></tr>
+<tr>
+<td title='dashboard.AllVehiclesTest.TC_allVehiclesPercent()'><b>TC_allVehiclesPercent</b><br>Test class: dashboard.AllVehiclesTest<br/>
+<a href="#Output-1740663836" onClick='toggleBox("Output-1740663836", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1740663836" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1740663836">
+Browser Launched<br/>
+Browser: chrome<br/>
+Language: english<br/>
+Login Role: super admin<br/>
+TC_allVehiclesPercent Testcase execution Started<br/>
+All vehicles Percent: <b>100%<br/>
+The total percent of vehicles matches the sum of moving, stopped, idle, inactive and operation vehicles<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.AllVehiclesTest@5cad8b7d</td></tr>
+<tr>
+<td title='dashboard.AllVehiclesTest.TC_allVehiclesicon()'><b>TC_allVehiclesicon</b><br>Test class: dashboard.AllVehiclesTest<br/>
+<a href="#Output-2028543524" onClick='toggleBox("Output-2028543524", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2028543524" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2028543524">
+Browser Launched<br/>
+Browser: chrome<br/>
+Language: english<br/>
+Login Role: super admin<br/>
+TC_allVehiclesicon Testcase execution Started<br/>
+All Vehicles Logo is displayed<br/>
+com.aventstack.extentreports.ExtentTest@301a8a62<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.AllVehiclesTest@5cad8b7d</td></tr>
+<tr>
+<td title='dashboard.AllVehiclesTest.TC_allVehiclesColor()'><b>TC_allVehiclesColor</b><br>Test class: dashboard.AllVehiclesTest<br/>
+<a href="#Output-1286501856" onClick='toggleBox("Output-1286501856", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1286501856" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1286501856">
+Browser Launched<br/>
+Browser: chrome<br/>
+Language: english<br/>
+Login Role: super admin<br/>
+TC_allVehiclesColor Testcase execution Started<br/>
+All Vehicles Background color is <b>#970e52</b><br/>
+All Vehicles background colour matches the defined colour code<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.AllVehiclesTest@5cad8b7d</td></tr>
+<tr>
+<td title='dashboard.AllVehiclesTest.TC_allVehiclesViewDetails()'><b>TC_allVehiclesViewDetails</b><br>Test class: dashboard.AllVehiclesTest<br/>
+<a href="#Output-1838899621" onClick='toggleBox("Output-1838899621", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1838899621" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1838899621">
+Browser Launched<br/>
+Browser: chrome<br/>
+Language: english<br/>
+Login Role: super admin<br/>
+TC_allVehiclesViewDetails Testcase execution Started<br/>
+All Vehicles Vehicle count: <b>33<br/>
+All Vehicles Vehicle List is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.AllVehiclesTest@5cad8b7d</td></tr>
+</table><p>
+</body>
+</html>

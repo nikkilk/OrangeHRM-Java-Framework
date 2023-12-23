@@ -1,0 +1,652 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 27 13:10:58 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>147 seconds (147242 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListUrl()'><b>TC_inactiveVehicleListUrl</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method verifies Inactive Vehicle List screen URL"<br/>
+<a href="#Output-359713488" onClick='toggleBox("Output-359713488", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-359713488" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-359713488">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListUrl Testcase execution Started<br/>
+<em><b>"This method verifies Inactive Vehicle List screen URL"<br/>
+Verifying Inactive Vehicle List screen page URL<br/>
+TC_inactiveVehicleListUrl Testcase execution Failed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [https://uyenotest.infotracktelematics.com/mcdashboard#] but found [null#]
+	at com.qa.Utils.TestUtils.assertEquals(TestUtils.java:189)
+	at com.qa.Utils.TestUtils.verifyPageUrl(TestUtils.java:122)
+	at dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListUrl(InactiveVehicleListPageTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace359713488", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace359713488'><pre>java.lang.AssertionError: expected [https://uyenotest.infotracktelematics.com/mcdashboard#] but found [null#]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:643)
+	at com.qa.Utils.TestUtils.assertEquals(TestUtils.java:189)
+	at com.qa.Utils.TestUtils.verifyPageUrl(TestUtils.java:122)
+	at dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListUrl(InactiveVehicleListPageTest.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListdownloadBtnColorAfterClick()'><b>TC_inactiveVehicleListdownloadBtnColorAfterClick</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Download toolbar color after click"<br/>
+<a href="#Output-1637627206" onClick='toggleBox("Output-1637627206", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1637627206" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1637627206">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListdownloadBtnColorAfterClick Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Download toolbar color after click"<br/>
+Mouse hovered over the element Inactive Vehicle List screen Download toolbar<br/>
+Download Toolbar after click Background color defined : <b>#f2704e</b><br/>
+Download Toolbar after click Background color displayed : <b>#413ea0</b><br/>
+TC_inactiveVehicleListdownloadBtnColorAfterClick Testcase execution Failed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [#f2704e] but found [#413ea0]
+	at com.qa.Utils.TestUtils.assertEquals(TestUtils.java:189)
+	at com.qa.Utils.TestUtils.colorVerify(TestUtils.java:204)
+	at dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListdownloadBtnColorAfterClick(InactiveVehicleListPageTest.java:140)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1637627206", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1637627206'><pre>java.lang.AssertionError: expected [#f2704e] but found [#413ea0]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:643)
+	at com.qa.Utils.TestUtils.assertEquals(TestUtils.java:189)
+	at com.qa.Utils.TestUtils.colorVerify(TestUtils.java:204)
+	at dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListdownloadBtnColorAfterClick(InactiveVehicleListPageTest.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListDownloadPDF()'><b>TC_inactiveVehicleListDownloadPDF</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen PDF Download functionality"<br/>
+<a href="#Output-1204383532" onClick='toggleBox("Output-1204383532", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1204383532" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1204383532">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListDownloadPDF Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen PDF Download functionality"<br/>
+Performed click action on Download toolbar field<br/>
+Performed click action on PDF field<br/>
+TC_inactiveVehicleListDownloadPDF Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListColumnsBtnColorAfterClick()'><b>TC_inactiveVehicleListColumnsBtnColorAfterClick</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Columns toolbar color after click"<br/>
+<a href="#Output-956315623" onClick='toggleBox("Output-956315623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-956315623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-956315623">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListColumnsBtnColorAfterClick Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Columns toolbar color after click"<br/>
+Mouse hovered over the element Inactive Vehicle List screen Columns toolbar<br/>
+Columns Toolbar after click Background color defined : <b>#f2704e</b><br/>
+Columns Toolbar after click Background color displayed : <b>#f2704e</b><br/>
+Columns Toolbar after click background colour matches the defined colour code<br/>
+TC_inactiveVehicleListColumnsBtnColorAfterClick Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListSort()'><b>TC_inactiveVehicleListSort</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method verifies Inactive Vehicle List screen Sort functionality"<br/>
+<a href="#Output-890491412" onClick='toggleBox("Output-890491412", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-890491412" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-890491412">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListSort Testcase execution Started<br/>
+<em><b>"This method verifies Inactive Vehicle List screen Sort functionality"<br/>
+Mouse hovered and clicked the element Table Sort button<br/>
+Table records are sorted<br/>
+TC_inactiveVehicleListSort Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListFiltersBtnColorAfterClick()'><b>TC_inactiveVehicleListFiltersBtnColorAfterClick</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Filters toolbar color after click"<br/>
+<a href="#Output-1232204889" onClick='toggleBox("Output-1232204889", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1232204889" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1232204889">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListFiltersBtnColorAfterClick Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Filters toolbar color after click"<br/>
+Mouse hovered over the element Inactive Vehicle List screen Filters toolbar<br/>
+Filters Toolbar after click Background color defined : <b>#f2704e</b><br/>
+Filters Toolbar after click Background color displayed : <b>#f2704e</b><br/>
+Filters Toolbar after click background colour matches the defined colour code<br/>
+TC_inactiveVehicleListFiltersBtnColorAfterClick Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListdownloadBtnColor()'><b>TC_inactiveVehicleListdownloadBtnColor</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Download toolbar color"<br/>
+<a href="#Output-806073091" onClick='toggleBox("Output-806073091", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-806073091" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-806073091">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListdownloadBtnColor Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Download toolbar color"<br/>
+Download Toolbar Background color defined : <b>#413ea0</b><br/>
+Download Toolbar Background color displayed : <b>#413ea0</b><br/>
+Download Toolbar background colour matches the defined colour code<br/>
+TC_inactiveVehicleListdownloadBtnColor Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListFiltersBtnColor()'><b>TC_inactiveVehicleListFiltersBtnColor</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Filters toolbar color"<br/>
+<a href="#Output-562096009" onClick='toggleBox("Output-562096009", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-562096009" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-562096009">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListFiltersBtnColor Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Filters toolbar color"<br/>
+Filters Toolbar Background color defined : <b>#413ea0</b><br/>
+Filters Toolbar Background color displayed : <b>#413ea0</b><br/>
+Filters Toolbar background colour matches the defined colour code<br/>
+TC_inactiveVehicleListFiltersBtnColor Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehiclePageHeader()'><b>TC_inactiveVehiclePageHeader</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method verifies Inactive Vehicle List Page Header"<br/>
+<a href="#Output-1486277532" onClick='toggleBox("Output-1486277532", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1486277532" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1486277532">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehiclePageHeader Testcase execution Started<br/>
+<em><b>"This method verifies Inactive Vehicle List Page Header"<br/>
+Inactive Vehicles List Page Header name is displayed<br/>
+TC_inactiveVehiclePageHeader Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleUpwardArrowBtn()'><b>TC_inactiveVehicleUpwardArrowBtn</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method verifies Inactive Vehicle screen Upward Arrow button functionality"<br/>
+<a href="#Output-1663485420" onClick='toggleBox("Output-1663485420", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1663485420" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1663485420">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleUpwardArrowBtn Testcase execution Started<br/>
+<em><b>"This method verifies Inactive Vehicle screen Upward Arrow button functionality"<br/>
+The page is scrolled to the end<br/>
+Performed click action on Upward Arrow button field<br/>
+As the upward arrow button was clicked, the page scrolled to the top<br/>
+TC_inactiveVehicleUpwardArrowBtn Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListColumnsShowAll()'><b>TC_inactiveVehicleListColumnsShowAll</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Columns Show All functionality"<br/>
+<a href="#Output-1543871080" onClick='toggleBox("Output-1543871080", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1543871080" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1543871080">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListColumnsShowAll Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Columns Show All functionality"<br/>
+Performed click action on Columns toolbar field<br/>
+The Columns list are  [#, Vehicle Number, Track Time, Location, Speed (km/h), Acc, Odometer (km), Idle Time(Mins), Video Status, Live Video]<br/>
+Performed click action on Columns toolbar Show All button field<br/>
+The table headers are [#, Vehicle Number, Track Time, Location, Speed (km/h), Acc, Odometer (km), Idle Time(Mins), Video Status, Live Video]<br/>
+The columns list matches the table headers<br/>
+TC_inactiveVehicleListColumnsShowAll Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListColumnsBtnColor()'><b>TC_inactiveVehicleListColumnsBtnColor</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Columns toolbar color"<br/>
+<a href="#Output-776178157" onClick='toggleBox("Output-776178157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-776178157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-776178157">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListColumnsBtnColor Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Columns toolbar color"<br/>
+Columns Toolbar Background color defined : <b>#413ea0</b><br/>
+Columns Toolbar Background color displayed : <b>#413ea0</b><br/>
+Columns Toolbar background colour matches the defined colour code<br/>
+TC_inactiveVehicleListColumnsBtnColor Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListColumnsHideAll()'><b>TC_inactiveVehicleListColumnsHideAll</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Columns Hide All functionality"<br/>
+<a href="#Output-900593187" onClick='toggleBox("Output-900593187", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-900593187" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-900593187">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListColumnsHideAll Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Columns Hide All functionality"<br/>
+Performed click action on Columns toolbar field<br/>
+Performed click action on Columns toolbar Hide All button field<br/>
+Total Number of columns count in a table: <b>0</b><br/>
+All the table columns are hidden<br/>
+TC_inactiveVehicleListColumnsHideAll Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListDownloadCSV()'><b>TC_inactiveVehicleListDownloadCSV</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen CSV Download functionality"<br/>
+<a href="#Output-381118552" onClick='toggleBox("Output-381118552", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-381118552" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-381118552">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListDownloadCSV Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen CSV Download functionality"<br/>
+Performed click action on Download toolbar field<br/>
+Performed click action on CSV field<br/>
+TC_inactiveVehicleListDownloadCSV Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListFiltersDeleteBtn()'><b>TC_inactiveVehicleListFiltersDeleteBtn</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Filters toolbar Delete functionality"<br/>
+<a href="#Output-1706985646" onClick='toggleBox("Output-1706985646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1706985646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1706985646">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListFiltersDeleteBtn Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Filters toolbar Delete functionality"<br/>
+Performed click action on Filters toolbar field<br/>
+Entering data in Filters text field <b>abcd<br/>
+Entered text <b>"abcd"</b> in the Filters toolbar text field field<br/>
+Performed click action on Filters toolbar Delete button field<br/>
+Entered data is cleared from the text field<br/>
+TC_inactiveVehicleListFiltersDeleteBtn Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListTitle()'><b>TC_inactiveVehicleListTitle</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method verifies Inactive Vehicle List Page Title"<br/>
+<a href="#Output-719699252" onClick='toggleBox("Output-719699252", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-719699252" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-719699252">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListTitle Testcase execution Started<br/>
+<em><b>"This method verifies Inactive Vehicle List Page Title"<br/>
+Verifying Inactive Vehicle List screen page title<br/>
+Page Title is <b>FMS - Dashboard<br/>
+TC_inactiveVehicleListTitle Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListRecordsPerPage()'><b>TC_inactiveVehicleListRecordsPerPage</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method verifies Inactive Vehicle List screen Records per Page functionality"<br/>
+<a href="#Output-1354183876" onClick='toggleBox("Output-1354183876", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1354183876" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1354183876">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListRecordsPerPage Testcase execution Started<br/>
+<em><b>"This method verifies Inactive Vehicle List screen Records per Page functionality"<br/>
+TC_inactiveVehicleListRecordsPerPage Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListFiltersList()'><b>TC_inactiveVehicleListFiltersList</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Filters toolbar List"<br/>
+<a href="#Output-470051986" onClick='toggleBox("Output-470051986", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-470051986" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-470051986">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListFiltersList Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Filters toolbar List"<br/>
+Performed click action on Filters toolbar field<br/>
+Filter Columns dropdown list are []<br/>
+The headers of the table are     [#, Vehicle Number, Track Time, Location, Speed (km/h), Acc, Odometer (km), Idle Time(Mins), Video Status, Live Video]<br/>
+The Filter columns list matches the table headers<br/>
+TC_inactiveVehicleListFiltersList Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListFiltersTooltip()'><b>TC_inactiveVehicleListFiltersTooltip</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Filters toolbar tooltip text"<br/>
+<a href="#Output-2062828451" onClick='toggleBox("Output-2062828451", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2062828451" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2062828451">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListFiltersTooltip Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Filters toolbar tooltip text"<br/>
+Mouse hovered over the element Inactive Vehicle List Filters<br/>
+Tooltip text for the Inactive Vehicle List Filters is: <b>Show filters<br/>
+The tooltip text appears correctly<br/>
+TC_inactiveVehicleListFiltersTooltip Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListRecordsPerPageList()'><b>TC_inactiveVehicleListRecordsPerPageList</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Records per page dropdown list entries in Inactive Vehicle List screen"<br/>
+<a href="#Output-1178861747" onClick='toggleBox("Output-1178861747", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1178861747" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1178861747">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListRecordsPerPageList Testcase execution Started<br/>
+<em><b>"This method validates Records per page dropdown list entries in Inactive Vehicle List screen"<br/>
+Performed click action on Records per page Dropdown field<br/>
+Records per page entries are [10, 20, 30]<br/>
+TC_inactiveVehicleListRecordsPerPageList Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListSearch()'><b>TC_inactiveVehicleListSearch</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method verifies Inactive Vehicle List screen Search functionality"<br/>
+<a href="#Output-556223230" onClick='toggleBox("Output-556223230", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-556223230" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-556223230">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListSearch Testcase execution Started<br/>
+<em><b>"This method verifies Inactive Vehicle List screen Search functionality"<br/>
+Performed click action on Filters toolbar field<br/>
+Performed click action on Filters toolbar Columns dropdown field<br/>
+Entered text <b>"Report=..........................."</b> in the Filters toolbar Columns dropdown field<br/>
+Entered text <b>"72082"</b> in the Filters toolbar Value Text field field<br/>
+Searching for the <b>72082 Report=...........................<br/>
+Total Number of rows count in a table: 24<br/>
+Number of records present for the searched element: 24<br/>
+TC_inactiveVehicleListSearch Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListRecordsPerPageText()'><b>TC_inactiveVehicleListRecordsPerPageText</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Records per Page text is displayed in Inactive Vehicle List Screen"<br/>
+<a href="#Output-294309744" onClick='toggleBox("Output-294309744", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-294309744" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-294309744">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListRecordsPerPageText Testcase execution Started<br/>
+<em><b>"This method validates Records per Page text is displayed in Inactive Vehicle List Screen"<br/>
+TC_inactiveVehicleListRecordsPerPageText Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListColmnsList()'><b>TC_inactiveVehicleListColmnsList</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Columns List"<br/>
+<a href="#Output-1654300454" onClick='toggleBox("Output-1654300454", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1654300454" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1654300454">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListColmnsList Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Columns List"<br/>
+Performed click action on Columns toolbar field<br/>
+The Columns list are  [#, Vehicle Number, Track Time, Location, Speed (km/h), Acc, Odometer (km), Idle Time(Mins), Video Status, Live Video]<br/>
+The table headers are [#, Vehicle Number, Track Time, Location, Speed (km/h), Acc, Odometer (km), Idle Time(Mins), Video Status, Live Video]<br/>
+The columns list matches the table headers<br/>
+TC_inactiveVehicleListColmnsList Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+<tr>
+<td title='dashboard.InactiveVehicleListPageTest.TC_inactiveVehicleListDownloadList()'><b>TC_inactiveVehicleListDownloadList</b><br>Test class: dashboard.InactiveVehicleListPageTest<br>Test method: <em><b>"This method validates Inactive Vehicle List screen Download toolbar List"<br/>
+<a href="#Output-578969118" onClick='toggleBox("Output-578969118", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-578969118" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-578969118">
+Browser: <span style='color:teal'>chrome<br/>
+Language: <span style='color:teal'>english<br/>
+Login Role: <span style='color:teal'>super admin<br/>
+TC_inactiveVehicleListDownloadList Testcase execution Started<br/>
+<em><b>"This method validates Inactive Vehicle List screen Download toolbar List"<br/>
+Performed click action on Download toolbar field<br/>
+Download menu list are [ CSV,  PDF]<br/>
+TC_inactiveVehicleListDownloadList Testcase execution Completed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>dashboard.InactiveVehicleListPageTest@76c7beb3</td></tr>
+</table><p>
+</body>
+</html>

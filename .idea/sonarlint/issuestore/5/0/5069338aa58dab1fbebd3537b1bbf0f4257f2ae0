@@ -1,0 +1,118 @@
+
+y
+java:S1192¾"VDefine a constant instead of duplicating this literal " message is displayed" 4 times.(ñï¤Êÿÿÿÿÿ8ñô¡¤ì0
+|
+java:S1192×"YDefine a constant instead of duplicating this literal "<span style='color:red'>" 3 times.( †›ñøÿÿÿÿ8òô¡¤ì0
+k
+java:S1192×"HDefine a constant instead of duplicating this literal "</span>" 3 times.( †›ñøÿÿÿÿ8òô¡¤ì0
+q
+java:S1192ñ"SDefine a constant instead of duplicating this literal "Searching for the " 3 times.(€öÅ8óô¡¤ì0
+v
+java:S1192‡"SDefine a constant instead of duplicating this literal "Checkbox selection" 4 times.(„¨Ãıÿÿÿÿ8óô¡¤ì0
+t
+java:S1192ã"QDefine a constant instead of duplicating this literal "Download toolbar" 3 times.(İ’¶ıÿÿÿÿ8óô¡¤ì0
+m
+java:S1192û"JDefine a constant instead of duplicating this literal "tabindex" 10 times.(îèûåşÿÿÿÿ8ôô¡¤ì0
+
+java:S1192×"\Define a constant instead of duplicating this literal " error message is displayed" 3 times.( †›ñøÿÿÿÿ8ôô¡¤ì0
+s
+java:S1192»"PDefine a constant instead of duplicating this literal "Filters toolbar" 9 times.(£û¯´úÿÿÿÿ8ôô¡¤ì0
+‹
+java:S1192Û"hDefine a constant instead of duplicating this literal "Total Number of rows count in a table: " 3 times.(°ßêøÿÿÿÿ8ôô¡¤ì0
+“
+java:S1192†"uDefine a constant instead of duplicating this literal "Number of records present for the searched element: " 3 times.(ÙÌ«Ô8õô¡¤ì0
+
+java:S1192í"aDefine a constant instead of duplicating this literal "Filters toolbar Value Text field" 6 times.(á—è¸8õô¡¤ì0
+„
+java:S1192ì"aDefine a constant instead of duplicating this literal "Filters toolbar Columns dropdown" 6 times.(¡Ö÷¤şÿÿÿÿ8õô¡¤ì0
+s
+java:S1192½"PDefine a constant instead of duplicating this literal "ErrorNoRecords" 15 times.(®›¦ùüÿÿÿÿ8öô¡¤ì0
+s
+java:S1192"PDefine a constant instead of duplicating this literal "Columns toolbar" 3 times.(™á¼ˆûÿÿÿÿ8öô¡¤ì0
+n
+java:S1192»"KDefine a constant instead of duplicating this literal "management" 4 times.(®ŸÛæûÿÿÿÿ8÷ô¡¤ì0
+d
+java:S1192¹"GDefine a constant instead of duplicating this literal "report" 3 times.(µæ¸38÷ô¡¤ì0
+s	java:S117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ı¸ßûÿÿÿÿ8şô¡¤ì0
+O
+java:S1444¿"1Make this "public static nextPageBtn" field final(ÜçÖ8‚õ¡¤ì0
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­«ÚŸşÿÿÿÿ8õ¡¤ì0
+†
+java:S1845ê"cRename method "downloadCSVFile" to prevent any misunderstanding/clash with field "downloadCSVFile".(‡ÀÄ­øÿÿÿÿ8Ôÿ¡¤ì0
+
+java:S1845ñ"cRename method "downloadPDFFile" to prevent any misunderstanding/clash with field "downloadPDFFile".(è¢‚Î8Ôÿ¡¤ì0
+u
+java:S6204ƒ"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÁÄÕ¡øÿÿÿÿ8çÿ¡¤ì0
+u
+java:S6204¨"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÁÄÕ¡øÿÿÿÿ8ïÿ¡¤ì0
+u
+java:S6204½"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ëñº„øÿÿÿÿ8ôÿ¡¤ì0
+p
+java:S6204À"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¬Á‚Â8õÿ¡¤ì0
+H
+java:S2114Ã"%Remove or correct this "equals" call.(°Ïúåûÿÿÿÿ8÷ÿ¡¤ì0
+h
+java:S1764Ã"ECorrect one of the identical sub-expressions on both sides of equals.(°Ïúåûÿÿÿÿ8÷ÿ¡¤ì0
+o
+java:S6204Î"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ò“Y8úÿ¡¤ì0
+p
+java:S6204ä"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ùÿ¼é8€€¢¤ì0
+V	java:S106×"9Replace this use of System.out or System.err by a logger.(”“î€8–€¢¤ì0
+^	java:S125…"<This block of commented-out lines of code should be removed.(Òõú¿ùÿÿÿÿ8 €¢¤ì0
+p
+java:S6204¬"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(”¤¤¢8¡€¢¤ì0
+u
+java:S6204ú"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(‘¾µÅüÿÿÿÿ8­€¢¤ì0
+u
+java:S6204ü"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(‘¾µÅüÿÿÿÿ8¯€¢¤ì0
+u
+java:S6204€"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(‘¾µÅüÿÿÿÿ8¯€¢¤ì0
+p
+java:S6204ƒ"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª«8±€¢¤ì0
+V	java:S106‡"9Replace this use of System.out or System.err by a logger.(õ«¡ü8²€¢¤ì0
+[	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ªİİ‰ûÿÿÿÿ8²€¢¤ì0
+p
+java:S6204 "RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(û¥áŒ8¶€¢¤ì0
+p
+java:S6204¢"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(û¥áŒ8·€¢¤ì0
+p
+java:S6204¦"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(û¥áŒ8¹€¢¤ì0
+p
+java:S6204©"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ì€Ó8»€¢¤ì0
+Y
+java:S1117¼";Rename "rowSize" which hides the field declared at line 20.(Ç€²‚8¿€¢¤ì0
+p
+java:S6204Ï"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(÷ñ›¸8Ä€¢¤ì0
+p
+java:S6204Ñ"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(÷ñ›¸8Å€¢¤ì0
+p
+java:S6204Ö"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(÷ñ›¸8Æ€¢¤ì0
+p
+java:S6204Ù"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(´Î ì8Ç€¢¤ì0
+u
+java:S6204à"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÇŸäíøÿÿÿÿ8É€¢¤ì0
+u
+java:S6204â"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÇŸäíøÿÿÿÿ8Ë€¢¤ì0
+u
+java:S6204ç"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÇŸäíøÿÿÿÿ8Ì€¢¤ì0
+p
+java:S6204ê"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª«8Í€¢¤ì0
+p
+java:S6204û"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¡ú®ğ8Ï€¢¤ì0
+p
+java:S6204ü"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¡ú®ğ8Ğ€¢¤ì0
+p
+java:S6204ÿ"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(¡ú®ğ8Ñ€¢¤ì0
+p
+java:S6204‚"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(´Î ì8Ò€¢¤ì0
+p
+java:S6204ˆ"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(·¿‘8Ó€¢¤ì0
+p
+java:S6204‰"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(·¿‘8Ô€¢¤ì0
+p
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(·¿‘8Õ€¢¤ì0
+p
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª«8×€¢¤ì0
+^	java:S125"<This block of commented-out lines of code should be removed.(³˜¼ïüÿÿÿÿ8Ù€¢¤ì0
+[
+java:S1155Ö">Use isEmpty() to check whether the collection is empty or not.(À³8’½˜ªì0

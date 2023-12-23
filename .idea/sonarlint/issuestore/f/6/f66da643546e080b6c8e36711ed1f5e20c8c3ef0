@@ -1,0 +1,16 @@
+
+d
+java:S1192\"IDefine a constant instead of duplicating this literal "Username" 5 times.(ƒ”‘¾ýÿÿÿÿ
+e
+java:S1192‚"IDefine a constant instead of duplicating this literal "Password" 3 times.(ýË£¶þÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­«ÚŸþÿÿÿÿ
+—
+java:S1845h"|Rename method "login" to prevent any misunderstanding/clash with field "login" defined in superclass "com.qa.Base.TestBase".(¶ç¸±ùÿÿÿÿ
+S
+java:S3252i"=Use static access with "com.qa.Base.TestBase" for "username".(´¨û™
+S
+java:S3252j"=Use static access with "com.qa.Base.TestBase" for "password".(ˆëÑ‘
+`
+java:S3252¢"=Use static access with "com.qa.Base.TestBase" for "username".(ƒÊ¤Ñÿÿÿÿÿ8Üà•¶é0
+[
+java:S3252£"=Use static access with "com.qa.Base.TestBase" for "password".(ˆëÑ‘8™Ô”¶é0

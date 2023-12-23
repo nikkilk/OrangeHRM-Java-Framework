@@ -1,0 +1,12 @@
+
+u
+java:S1104"XMake alertMessage a static final constant or non-public and provide accessors if needed.(Ìóˆ—8Âÿ¬­ì0
+r
+java:S1104"UMake simCardNo a static final constant or non-public and provide accessors if needed.(°µá¥8Âÿ¬­ì0
+q
+java:S1104"TMake mobileNo a static final constant or non-public and provide accessors if needed.(ÕöàÒ8Âÿ¬­ì0
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­«ÚŸþÿÿÿÿ8Æÿ¬­ì0
+X
+java:S1172@"6Remove this unused method parameter "serviceProvider".(”¥¹‹ûÿÿÿÿ8ôÿ¬­ì0
+Z
+java:S1117`"=Rename "simCardNo" which hides the field declared at line 12.(•áªÇ8úÿ¬­ì0

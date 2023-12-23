@@ -1,0 +1,22 @@
+
+`
+java:S1192d"JDefine a constant instead of duplicating this literal "Testcase " 3 times.(üİìÉ
+h
+java:S1104"RMake extent a static final constant or non-public and provide accessors if needed.(Ì•·ï
+q
+java:S1104!"VMake extentTest a static final constant or non-public and provide accessors if needed.(ıÂ˜ôøÿÿÿÿ
+B
+java:S1444",Make this "public static extent" field final(Ì•·ï
+K
+java:S1444!"0Make this "public static extentTest" field final(ıÂ˜ôøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äøª—ÿÿÿÿÿ
+—
+java:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(·Å¾­
+Q
+java:S26963"6Make the enclosing method "static" or remove this set.(Ò´ûÿÿÿÿ
+Q	java:S125A"<This block of commented-out lines of code should be removed.(·Å¾­
+V	java:S125}"<This block of commented-out lines of code should be removed.(·¥™˜ıÿÿÿÿ
+n
+java:S6204˜"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(£¸Ø®ÿÿÿÿÿ
+^
+java:S5361™"HReplace this call to "replaceAll()" by a call to the "replace()" method.(êÛƒ)

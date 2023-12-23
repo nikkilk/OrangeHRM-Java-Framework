@@ -1,0 +1,72 @@
+
+
+java:S1488W"dImmediately return this expression instead of assigning it to the temporary variable "randomString".(ÚÁÁØ8Öå…Üë0
+s
+java:S1104"QMake faker a static final constant or non-public and provide accessors if needed.(úØÉÜúÿÿÿÿ8×å…Üë0
+x
+java:S1104"VMake clientName a static final constant or non-public and provide accessors if needed.(‘’„æÿÿÿÿÿ8×å…Üë0
+q
+java:S1104"TMake userName a static final constant or non-public and provide accessors if needed.(ŞÉšÈ8×å…Üë0
+r
+java:S1104"PMake role a static final constant or non-public and provide accessors if needed.(º·—‹úÿÿÿÿ8×å…Üë0
+}
+java:S1104"[Make serviceProvider a static final constant or non-public and provide accessors if needed.(Ä†äìûÿÿÿÿ8×å…Üë0
+p
+java:S1104"SMake simType a static final constant or non-public and provide accessors if needed.(¨Ô½Â8×å…Üë0
+o
+java:S1104"RMake enDate a static final constant or non-public and provide accessors if needed.(¹×÷8×å…Üë0
+t
+java:S1104"RMake jaDate a static final constant or non-public and provide accessors if needed.(‰ÙÑ¼ùÿÿÿÿ8×å…Üë0
+w
+java:S1104"UMake vehicleNo a static final constant or non-public and provide accessors if needed.(–ùËøÿÿÿÿ8×å…Üë0
+v
+java:S1104"TMake unitType a static final constant or non-public and provide accessors if needed.(Òá’ûÿÿÿÿ8×å…Üë0
+M
+java:S1444"+Make this "public static faker" field final(úØÉÜúÿÿÿÿ8×å…Üë0
+R
+java:S1444"0Make this "public static clientName" field final(‘’„æÿÿÿÿÿ8×å…Üë0
+K
+java:S1444".Make this "public static userName" field final(ŞÉšÈ8×å…Üë0
+L
+java:S1444"*Make this "public static role" field final(º·—‹úÿÿÿÿ8×å…Üë0
+W
+java:S1444"5Make this "public static serviceProvider" field final(Ä†äìûÿÿÿÿ8×å…Üë0
+J
+java:S1444"-Make this "public static simType" field final(¨Ô½Â8×å…Üë0
+I
+java:S1444",Make this "public static enDate" field final(¹×÷8×å…Üë0
+N
+java:S1444",Make this "public static jaDate" field final(‰ÙÑ¼ùÿÿÿÿ8×å…Üë0
+Q
+java:S1444"/Make this "public static vehicleNo" field final(–ùËøÿÿÿÿ8×å…Üë0
+P
+java:S1444".Make this "public static unitType" field final(Òá’ûÿÿÿÿ8×å…Üë0
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(üŸ¤8Øå…Üë0
+Ÿ
+java:S1845"Rename field "userName" to prevent any misunderstanding/clash with field "username" defined in superclass "com.qa.Base.TestBase".(ŞÉšÈ8ôå…Üë0
+t
+java:S1450"RRemove the "fis" field and declare it as a local variable in the relevant methods.(Áò¢ûÿÿÿÿ8õå…Üë0
+I
+java:S1197",Move the array designators [][] to the type.(ı—å8ıå…Üë0
+j	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óœ´8ıå…Üë0
+G
+java:S2386#"%Make member "clientName" "protected".(³£©°ùÿÿÿÿ8ıå…Üë0
+E
+java:S2386$"#Make member "userName" "protected".(ë‘ñêüÿÿÿÿ8şå…Üë0
+A
+java:S2386%"Make member "role" "protected".(ŠÓ¾Íıÿÿÿÿ8şå…Üë0
+G
+java:S2386&"*Make member "serviceProvider" "protected".(ùÕ»Õ8şå…Üë0
+D
+java:S2386'""Make member "simType" "protected".(”ŞÂöıÿÿÿÿ8şå…Üë0
+C
+java:S2386("!Make member "enDate" "protected".(àõ†úÿÿÿÿ8şå…Üë0
+>
+java:S2386)"!Make member "jaDate" "protected".(—ˆè8şå…Üë0
+A
+java:S2386*"$Make member "vehicleNo" "protected".(íàíœ8şå…Üë0
+E
+java:S2386+"#Make member "unitType" "protected".(è¨çéúÿÿÿÿ8şå…Üë0
+]	java:S125;"<This block of commented-out lines of code should be removed.(ÖËÀƒşÿÿÿÿ8€æ…Üë0
+:
+java:S2119Q"Save and re-use this "Random".(¼İÅf8ƒæ…Üë0
